@@ -1,6 +1,8 @@
-SELECT 
-ContactName,
-Country
+SELECT * 
+FROM Orders
+ORDER BY OrderDate DESC
+LIMIT 3;
+
+SELECT CustomerName, Country
 FROM Customers
-WHERE
-CustomerID = 90
+WHERE customerID = 90;
