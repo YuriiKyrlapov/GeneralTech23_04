@@ -1,6 +1,3 @@
-SELECT 
-ContactName,
-Country
+SELECT CustomerName, Country
 FROM Customers
-WHERE
-CustomerID = 90
+WHERE customerID = 90;
